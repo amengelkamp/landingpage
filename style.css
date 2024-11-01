@@ -1,0 +1,90 @@
+/* style.css */
+
+/* 
+[x] font used: roboto 
+[x] dark background color (hero and footer): #1F2937
+[x] Hero Main text ("this website is awesome") 48 px #F9FAF8 weight: 900
+[x] Hero Secondary text, Header Link Text: 18px #E5E7EB
+[x] Header Logo text: 24px #F9FAF8
+[x] Button color, call to action background color #3882F6
+[x] information header text: 36px #1F2937 weight: 900
+[x] Quote section background color: #E5E7EB 
+[x] Quote text: 36px light italic #1F2937
+*/
+
+
+
+body {
+    font-family: "Roboto";
+    size: 100vH;
+    /* background-color: white; */
+}
+
+* {
+    border: 1px solid red;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button-sign-up-top {
+    color: #3882F6;
+}
+
+.info-header {
+    font-size: 48 px;
+     color: #F9FAF8;
+     font-weight: 900;
+}
+
+.some-random-information {
+    font-size: 6px;
+    color: #1F2937;
+    weight: 900;
+}
+
+
+
+.info-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.third-website-part-quote {
+    background-color: #E5E7EB;
+}
+
+
+
+.inspirationalquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+
+.quotereference {
+    font-size: 6px;
+    color: #1F2937;
+    weight: 900;
+}
+
+.calltoactionkachel {
+    justify-content: center;
+    color: #3882F6;
+    padding: 20px 40px 20 px 40px;
+}
+
+.headerlinks {
+
+}
+
+
