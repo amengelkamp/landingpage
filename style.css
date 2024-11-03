@@ -28,13 +28,112 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upper-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+}
+
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
+    
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0; /* Entfernt die Einrückung */
+    margin: 0; /* Optional: Entfernt den äußeren Abstand */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+
+.lower-header-row {
+    display: flex;
+    flex-direction: row;
+    color: #F9FAF8;
+    margin-right: 90px;
+    margin-left: 90px;
+    flex: 1;
+}
+
+
+.lower-header-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* h1 this website is awesome */
+h1 {
+    font-size: 48px;
+    color:#F9FAF8; 
+    weight: 900;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8; 
+    max-width: 80px;
+}
+.info-text {
+
 }
 
 .button-sign-up-top {
+
+}
+
+.foto-luna {
+    max-width: 100%;           /* Ensure the image scales within its container */
+    max-height: 100%;          /* Ensure the image does not exceed the container height */
+}
+
+
+
+
+
+.signupbutton {
     color: #3882F6;
+    color: white;
+    border-radius: 5px; 
 }
 
 .info-header {
@@ -49,7 +148,10 @@ body {
     weight: 900;
 }
 
-
+.welpenfoto {
+    width: 150px;
+    height: auto;
+}
 
 .info-text {
     font-size: 18px;
