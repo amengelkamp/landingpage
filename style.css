@@ -171,13 +171,15 @@ button {
     max-height: 100px;
     border-radius: 5px;
     border: 2px solid #3882F6; 
+    align-items: center;
+    justify-content: center;
+    display: block; /* Macht das Bild zu einem Block-Element */
+    margin: 0 auto; /* Zentriert das Bild */
 }
 
 .some-subtext {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    width: 100px;
+    text-align: center;
 }
 
 
