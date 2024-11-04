@@ -19,7 +19,7 @@ body {
     margin: 0px;
     padding: 0px;
     size: 100vH;
-    /* background-color: white; */
+    background-color: white;
 }
 
 * {
@@ -154,7 +154,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20px; 
 }
 
 .kachelneinsbisvier {
@@ -206,7 +206,15 @@ button {
 
 
 .third-website-part-quote {
+    display: flex;
     background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px; */
 }
 
 
@@ -216,13 +224,21 @@ button {
     font-style: italic;
     font-weight: light;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
 }
 
 
 .quotereference {
-    font-size: 6px;
+    font-size: 10px;
     color: #1F2937;
     weight: 900;
+    display: flex;
+    text-align: right;
 }
 
 .calltoactionkachel {
